@@ -9,7 +9,11 @@ import google.generativeai as genai
 @st.cache_data(show_spinner=False) 
 def get_image_info(filter_name):
     # --- FIX: Use API Key directly ---    
+<<<<<<< HEAD
     API_KEY = "YOUR_API_KEY_HERE"
+=======
+    API_KEY = "AIzaSyCaZqn1vSnAhqxs6OLCNYZjN53YBgdqQFs"
+>>>>>>> d7baaaf (t)
     if API_KEY == "YOUR_API_KEY_HERE":
         st.warning("Please add your Gemini API key to the code to enable this feature.", icon="⚠️")
         return "API key not provided. Please add it to the `get_image_info` function in the code."
